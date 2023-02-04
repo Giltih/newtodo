@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 1rem 2rem;
+  font-size: 50px;
+  margin: auto;
+}
+
+p {
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  border-radius: 1rem;
+  background-color: rgb(154, 83, 220);
+  max-width: 800px;
+}
+
+#task {
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  border-radius: 1rem;
+  background-color: rgb(119, 94, 144);
+  font-size: 2rem;
+  width: 800px;
+}
+
+.btn {
+  margin: auto;
+  display: flex;
+}
